@@ -67,6 +67,11 @@ developing your own process.
 - Update the number of likes for a toy
 
   - How I debugged:
+  1. I noted the error from the console: 
+  "Uncaught (in promise) SyntaxError: Unexpected end of JSON input."
+  2. Confirmed the PATCH error from the Terminal (Checking the response from the server)
+  3. I updated the `update` function in the `toys_controller.rb` file
+
 
 - Donate a toy to Goodwill (and delete it from our database)
 
