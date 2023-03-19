@@ -76,3 +76,5 @@ developing your own process.
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  1. Checked the server logs for the error upon clicking. Found a Routing error (ActionController::RoutingError (No route matches [DELETE] "/toys/9"):)
+  2. Proceeded to recongifure `routes.rb` to include `destory`. 
