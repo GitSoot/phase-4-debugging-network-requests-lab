@@ -63,6 +63,7 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  The Add Toy Functionality was okay
 
 - Update the number of likes for a toy
 
